@@ -30,10 +30,10 @@ public class BabaBaseLibrary {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--headless");
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(opt);
 		logger.info("Driver initiated");
 		driver.get("https://www.testingbaba.com/newdemo.html");
-		driver.get(readConfig.getURL());
+//		driver.get(readConfig.getURL());
 		logger.info("URL opened");
 		// driver.manage().window().maximize();
 
