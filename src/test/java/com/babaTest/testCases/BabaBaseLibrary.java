@@ -1,5 +1,7 @@
 package com.babaTest.testCases;
 
+import java.time.Duration;
+
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -30,11 +32,12 @@ public class BabaBaseLibrary {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--headless");
-		driver = new ChromeDriver(opt);
-		logger.info("Driver initiated");
+		driver = new ChromeDriver();
+		logger.info("Driver initiated Again");
 		driver.get("https://www.testingbaba.com/newdemo.html");
 //		driver.get(readConfig.getURL());
 		logger.info("URL opened");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		// driver.manage().window().maximize();
 
 		/*

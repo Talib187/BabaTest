@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-17T17:05:31 IST" name="Default suite" finished-at="2023-09-17T17:06:11 IST" duration-ms="40100">
+  <suite started-at="2023-09-24T12:22:14 IST" name="Default suite" finished-at="2023-09-24T12:24:03 IST" duration-ms="108817">
     <groups>
     </groups>
-    <test started-at="2023-09-17T17:05:31 IST" name="Default test" finished-at="2023-09-17T17:06:11 IST" duration-ms="40100">
-      <class name="com.babaTest.testCases.TC_FillTextboxTest_001">
-        <test-method is-config="true" signature="executingBeforeTest()[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:31 IST" name="executingBeforeTest" finished-at="2023-09-17T17:05:31 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executingBeforeTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:31 IST" name="setUp" finished-at="2023-09-17T17:05:46 IST" duration-ms="15661" status="PASS">
+    <test started-at="2023-09-24T12:22:14 IST" name="Default test" finished-at="2023-09-24T12:24:03 IST" duration-ms="108817">
+      <class name="com.babaTest.testCases.TC_WebTableTest_004">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:14 IST" name="setUp" finished-at="2023-09-24T12:22:27 IST" duration-ms="12804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getElementSetUp()[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:46 IST" name="getElementSetUp" finished-at="2023-09-17T17:05:48 IST" duration-ms="1606" status="PASS">
+        <test-method is-config="true" signature="getElementSetUp()[pri:0, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:27 IST" name="getElementSetUp" finished-at="2023-09-24T12:22:30 IST" duration-ms="3295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getElementSetUp -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:53 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:54 IST" duration-ms="1332" status="PASS">
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:33 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:34 IST" duration-ms="1053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,50 +24,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[john.smith@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123 Main St, City, State 12345]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[456 Elm St, Town, State 67890]]>
+                <![CDATA[john.smith@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:54 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:55 IST" duration-ms="809" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:34 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:35 IST" duration-ms="530" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Jane Doe]]>
+                <![CDATA[Emily Davis]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[jane.doe@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Oak Ave, City, State 56789]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[987 Pine Rd, Town, State 23456]]>
+                <![CDATA[emily.davis@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:55 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:56 IST" duration-ms="775" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:35 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:35 IST" duration-ms="595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,76 +56,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[michael.j@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[456 Maple Ln, City, State 34567]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[321 Birch Dr, Town, State 89012]]>
+                <![CDATA[michael.johnson@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:56 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:56 IST" duration-ms="808" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:35 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:36 IST" duration-ms="595" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Emily Wilson]]>
+                <![CDATA[Sarah Wilson]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[emily.wilson@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[654 Cedar Rd, City, State 45678]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[789 Oak Ave, Town, State 34567]]>
+                <![CDATA[sarah.wilson@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:56 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:57 IST" duration-ms="833" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sarah Brown]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sarah.brown@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[987 Pine Rd, City, State 23456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123 Main St, Town, State 12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:57 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:58 IST" duration-ms="833" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:36 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:37 IST" duration-ms="582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,392 +88,110 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[david.lee@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Elm St, City, State 89012]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[456 Oak Ave, Town, State 56789]]>
+                <![CDATA[david.lee@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:58 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:05:59 IST" duration-ms="1385" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:37 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:37 IST" duration-ms="617" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Laura Davis]]>
+                <![CDATA[Jennifer Brown]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[laura.davis@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[321 Birch Dr, City, State 23456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[654 Cedar Rd, Town, State 34567]]>
+                <![CDATA[jennifer.brown@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:05:59 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:01 IST" duration-ms="1150" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:37 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:38 IST" duration-ms="662" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[James Wilson]]>
+                <![CDATA[Daniel Martinez]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[james.w@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[987 Pine Rd, City, State 67890]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[789 Elm St, Town, State 12345]]>
+                <![CDATA[daniel.martinez@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:01 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:01 IST" duration-ms="899" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:38 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:38 IST" duration-ms="585" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Mary Johnson]]>
+                <![CDATA[Jessica Anderson]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[mary.j@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[654 Cedar Rd, City, State 56789]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[456 Maple Ln, Town, State 89012]]>
+                <![CDATA[jessica.anderson@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:01 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:03 IST" duration-ms="1056" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:38 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:39 IST" duration-ms="632" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[William Smith]]>
+                <![CDATA[Christopher Taylor]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[william.s@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123 Main St, City, State 34567]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[321 Birch Dr, Town, State 23456]]>
+                <![CDATA[christopher.taylor@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:03 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:03 IST" duration-ms="901" status="PASS">
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkWebTablePage(java.lang.String,java.lang.String)[pri:1, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:39 IST" name="checkWebTablePage" data-provider="WebTableData" finished-at="2023-09-24T12:22:40 IST" duration-ms="563" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Olivia Davis]]>
+                <![CDATA[Maria Garcia]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[olivia.d@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Elm St, City, State 89012]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[987 Pine Rd, Town, State 56789]]>
+                <![CDATA[maria.garcia@example.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:03 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:04 IST" duration-ms="800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ethan Brown]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ethan.b@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[321 Birch Dr, City, State 12345]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[123 Main St, Town, State 67890]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- checkWebTablePage -->
+        <test-method signature="checkEdit()[pri:2, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:22:40 IST" name="checkEdit" finished-at="2023-09-24T12:24:00 IST" duration-ms="80659" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:04 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:05 IST" duration-ms="762" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ava Johnson]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ava.j@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[456 Maple Ln, City, State 56789]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[654 Cedar Rd, Town, State 23456]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- checkEdit -->
+        <test-method signature="getPrint()[pri:2, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:24:00 IST" name="getPrint" finished-at="2023-09-24T12:24:01 IST" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:05 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:06 IST" duration-ms="789" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sophia Lee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sophia.lee@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[654 Cedar Rd, City, State 67890]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[789 Elm St, Town, State 56789]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getPrint -->
+        <test-method signature="checkDelete()[pri:3, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:24:01 IST" name="checkDelete" finished-at="2023-09-24T12:24:03 IST" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:06 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:07 IST" duration-ms="786" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Benjamin Wilson]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[benjamin.w@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Oak Ave, City, State 23456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[987 Pine Rd, Town, State 34567]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:07 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:07 IST" duration-ms="860" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mia Smith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mia.s@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[456 Elm St, City, State 34567]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[321 Birch Dr, Town, State 89012]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:07 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:08 IST" duration-ms="840" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Logan Davis]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[logan.d@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[987 Pine Rd, City, State 67890]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[654 Cedar Rd, Town, State 23456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:08 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:09 IST" duration-ms="909" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Harper Brown]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[harper.b@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123 Main St, City, State 56789]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[789 Oak Ave, Town, State 12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:09 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:10 IST" duration-ms="804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Noah Lee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[noah.lee@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[789 Elm St, City, State 23456]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[456 Oak Ave, Town, State 89012]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method signature="FillTextBoxForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:10 IST" name="FillTextBoxForm" data-provider="EmployeeData" finished-at="2023-09-17T17:06:11 IST" duration-ms="837" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Emma Wilson]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[emma.w@email.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[456 Maple Ln, City, State 67890]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[654 Cedar Rd, Town, State 34567]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillTextBoxForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.babaTest.testCases.TC_FillTextboxTest_001@7c37508a]" started-at="2023-09-17T17:06:11 IST" name="tearDown" finished-at="2023-09-17T17:06:11 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkDelete -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.babaTest.testCases.TC_WebTableTest_004@7188af83]" started-at="2023-09-24T12:24:03 IST" name="tearDown" finished-at="2023-09-24T12:24:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.babaTest.testCases.TC_FillTextboxTest_001 -->
+      </class> <!-- com.babaTest.testCases.TC_WebTableTest_004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

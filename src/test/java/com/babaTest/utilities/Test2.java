@@ -12,12 +12,17 @@ public class Test2 {
 
 	public static void main(String[] args) {
 		
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver  = new ChromeDriver();
-		driver.get("https://www.testingbaba.com/newdemo.html");
+
+		String dir = System.getProperty("user.dir")+"\\src\\main\\resources"+"\\webtable.xlsx";
 		
-		driver.findElement(By.xpath("//*[@data-target=\"#elements\"]")).click();
-		driver.findElement(By.xpath("//a[normalize-space()='text box']")).click();
+		String dir1 = "C:\\Users\\mtali\\eclipse-workspace\\BabaTest\\src\\main\\resources\\webtable.xlsx";
+		System.out.println(dir);
 		
+		boolean result = dir.equalsIgnoreCase(dir1);
+		
+		if(result==true) {
+			
+			System.out.println("Equals");
+		}
 	}
 }
